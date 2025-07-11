@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Range Rover Collage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+    .left {
+      flex: 1;
+      padding: 40px;
+      background: white;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .left h1 {
+      font-size: 3rem;
+      margin: 0 0 20px;
+    }
+    .left p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #555;
+    }
+    .buttons {
+      display: flex;
+      gap: 20px;
+    }
+    .buttons .btn {
+      padding: 12px 24px;
+      font-size: 1rem;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+    }
+    .btn-explore {
+      background: #000;
+      color: #fff;
+    }
+    .btn-build {
+      background: none;
+      color: #000;
+      font-weight: bold;
+    }
+    .btn-explore svg {
+      margin-right: 8px;
+    }
+    .right {
+      flex: 2;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 4px;
+      overflow: hidden;
+    }
+    .right img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    /* Optional: make collage go full height */
+    .right {
+      height: 100vh;
+    }
+    @media (max-width: 800px) {
+      .container {
+        flex-direction: column;
+      }
+      .right {
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+      <!-- Intro video -->
+<div class="card bg-dark text-white">
+  <video src="https://jlr.scene7.com/is/content/jlr/L46125MYGL_303104068_DX_LOOP_SPY_CLEAN_HDPRORES_6_16X9#t=0,6"  width="1550" card-img-top" autoplay loop muted></video>
+
+
+
+<div class="container">
+  <div class="left">
+    <h1>RANGE ROVER</h1>
+    <p>Go anywhere, composed everywhere.</p>
+    <div class="buttons">
+      <a href="Home.html" class="btn btn-explore">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 1 1 .708-.708l4 4a.498.498 0 0 1 .146.354v.002a.498.498 0 0 1-.146.352l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg>
+        EXPLORE
+      </a>
+      <a href="Home.html" class="btn btn-build">BUILD YOUR OWN</a>
+    </div>
+  </div>
+  <div class="right">
+    <img src="https://avatars.mds.yandex.net/i?id=1f3007e7169658f49748909ba1cd9521b5715def-5221393-images-thumbs&n=13"alt="Detail shot 1">
+    <img src="https://avatars.mds.yandex.net/i?id=1ec841c1378488e5cd697f0e5c9b5931552e8a36-4216669-images-thumbs&n=13"alt="Interior shot">
+    <img src="https://avatars.mds.yandex.net/i?id=d5fd6d1ae4e90ce773d002d186138c3260e9d473af04ac40-5244715-images-thumbs&n=13" alt="Rear shot">
+    <img src="https://avatars.mds.yandex.net/i?id=147a356340e044927c3a696afd2706e848775fa8-7455824-images-thumbs&n=13" alt="Headlight shot">
+  </div>
+</div>
+
+
+<br>
+<!-- Velar -->
+<div class="container">
+  <div class="left">
+    <h1>RANGE ROVER VELLAR</h1>
+    <p>Go anywhere, composed everywhere.</p>
+    <div class="buttons">
+      <a href="Home.html" class="btn btn-explore">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 1 1 .708-.708l4 4a.498.498 0 0 1 .146.354v.002a.498.498 0 0 1-.146.352l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg>
+        EXPLORE
+      </a>
+      <a href="Home.html" class="btn btn-build">BUILD YOUR OWN</a>
+    </div>
+  </div>
+  <div class="right">
+    <img src="https://avatars.mds.yandex.net/i?id=94609b5e3d4cd53c4a8189757d476c99c9849385-8981832-images-thumbs&n=13"alt="Detail shot 1">
+    <img src="https://avatars.mds.yandex.net/i?id=5fda45db2194e28d13a4cf548412b0937059245f-5390839-images-thumbs&n=13"alt="Interior shot">
+    <img src="https://www.topgear.com/sites/default/files/images/news-article/2015/09/21678826339b2abcd62ded5ac8e08510/rr_sentinel_exterior-1.jpg?w=1280&h=720" alt="Rear shot">
+    <img src="https://avatars.mds.yandex.net/i?id=035da3f32690b93eb15b939524e3088739a6e324-12141618-images-thumbs&n=13" alt="Headlight shot">
+  </div>
+</div>
+
+</body>
+</html>
