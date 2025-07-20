@@ -3,15 +3,154 @@
 @media (max-width: 2560px){
       .logo {
         display: inline-block;
-        width: 80px;
-        height: 50px;
+        width: 70px;
+        height: 60px;
         background: url('logo.png') no-repeat center;
         text-indent: -9999px; /* hides text visually */
 
       }}
-
-
-
 .b{
   text-align: center;
+}
+/* CSS */
+.testimonial-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.testimonial-section h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  line-height: 1.2em;
+}
+
+.testimonial-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+.testimonial-card {
+  flex: 0 0 300px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.quote-mark {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 3em;
+  color: rgba(0,0,255,0.2);
+}
+
+.testimonial-text {
+  margin-top: 40px;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  background: #dde2eb;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.avatar.male {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/024/183/502/large_2x/male-avatar-portrait-of-a-young-man-with-a-beard-illustration-of-male-character-in-modern-color-style-vector.jpg');
+}
+
+.avatar.female {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/002/002/300/non_2x/beautiful-woman-avatar-character-icon-free-vector.jpg');
+}
+
+.author-info {
+  margin-left: 12px;
+}
+
+.author-info .name {
+  font-weight: bold;
+  font-size: 1.05em;
+}
+
+.author-info .degree {
+  font-size: 0.9em;
+  color: #555;
+}
+
+
+
+
+
+footer{
+  background-color: black;
+  color: #fff;
+}
+
+
+.menutop{
+    padding: 10px 0px;
+    background: rgb(6, 0, 6);
+  }
+  .menutop p{
+    margin-bottom: 0px;
+    color: aliceblue;
+    }
+    h3{
+      color: #fbfbfb;
+    }
+    ul{
+      color: #fbfbfb;
+    }
+    .navbar-brand{
+        width: 10%;
+    }
+    .navbar {
+        background: #fff;
+    }
+
+    
+    @media (max-width: 1920px) {
+    
+}
+
+
+@media (max-width: 1440px) {
+    
+}
+@media (max-width: 1024px) {
+    
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 576px) {
+    
+}
+@media (max-width: 425px) {
+    
+}
+@media (max-width: 375px) {
+    
+}
+@media (max-width: 320px) {
+    
 }

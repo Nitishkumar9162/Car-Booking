@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Rental Signup</title>
+  <link rel="stylesheet" href="CSS/sign.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Car Rental Sign Up</h2>
+    <form action="/submit-signup" method="POST">
+      <!-- Personal Information -->
+      <label for="fullName">Full Name</label>
+      <input type="text" id="fullName" name="fullName" placeholder="Suraj Kumar singh" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="+1 555 123 4567" required />
+
+      <!-- Rental Preferences -->
+      <label for="pickupDate">Pick-Up Date</label>
+      <input type="date" id="pickupDate" name="pickupDate" required />
+
+      <label for="dropoffDate">Drop-Off Date</label>
+      <input type="date" id="dropoffDate" name="dropoffDate" required />
+
+      <label for="carType">Preferred Car Type</label>
+      <select id="carType" name="carType" required>
+        <option value="" disabled selected>Select a type</option>
+        <option value="BMW">BMW</option>
+        <option value="Rolls-Royce">Rolls-Royce</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Ferrari">Ferrari</option>
+        <option value="Audi">Audi</option>
+        <option value="Lamborghini">Lamborghini</option>
+      </select>
+
+      <label for="extras">Extras</label>
+      <select id="extras" name="extras" multiple size="3">
+        <option value="gps">GPS Navigation</option>
+        <option value="childseat">Child Seat</option>
+        <option value="insurance">Extra Insurance</option>
+      </select>
+
+      <!-- Submit -->
+      <button type="submit">Sign Up & Book Now</button>
+    </form>
+  </div>
+</body>
+</html>
