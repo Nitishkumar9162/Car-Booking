@@ -12,6 +12,12 @@
 .b{
   text-align: center;
 }
+.card-body{
+  color: black;
+}
+
+
+
 /* CSS */
 .testimonial-section {
   max-width: 1000px;
