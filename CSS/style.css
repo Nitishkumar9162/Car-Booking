@@ -1,21 +1,56 @@
 /* @media {(max-width: 2560px)}; */
 
 @media (max-width: 2560px){
+  header{
+  position: sticky;
+top:0%;
+  color:#fff;
+ padding-top:0px;
+ z-index: 1000;
+}
+a{
+  color: #fff;
+  /* hover: #cd8423; */
+}
+
+
+  body{
+    background-color:#fff;
+    color: #000000;
+  }
+  .abc{
+    color:#fff ;
+  }
+
+
+
+  .menutop{
+    text-decoration:none-;
+
+  }
       .logo {
         display: inline-block;
         width: 70px;
         height: 60px;
-        background: url('logo.png') no-repeat center;
+        background: url('') no-repeat center;
         text-indent: -9999px; /* hides text visually */
 
       }}
+
+
+      section.services{
+        padding-top: 100px;
+      }
 .b{
   text-align: center;
 }
 .card-body{
   color: black;
+  
 }
-
+.navbar{
+  text-align: endz;
+}
 
 
 /* CSS */
@@ -24,13 +59,15 @@
   margin: 0 auto;
   padding: 40px 20px;
   font-family: Arial, sans-serif;
-  color: #333;
+  color: #000000;
 }
 
-.testimonial-section h2 {
+.testimonial-section h1 {
   font-size: 2em;
   margin-bottom: 30px;
   line-height: 1.2em;
+  text-align: center;
+  color: #000000;
 }
 
 .testimonial-container {
@@ -106,6 +143,10 @@
 
 
 
+
+
+
+
 footer{
   background-color: black;
   color: #fff;
@@ -116,6 +157,8 @@ footer{
     padding: 10px 0px;
     background: rgb(6, 0, 6);
   }
+
+  
   .menutop p{
     margin-bottom: 0px;
     color: aliceblue;
@@ -160,3 +203,9 @@ footer{
 @media (max-width: 320px) {
     
 }
+
+
+
+
+    
+   
