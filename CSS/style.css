@@ -1,59 +1,67 @@
-/* @media {(max-width: 2560px)}; */
 
-@media (max-width: 2560px){
-  header{
-  position: sticky;
-top:0%;
-  color:#fff;
- padding-top:0px;
- z-index: 1000;
- 
-}
-.menutop a{
-  color: #fff;
-  /* hover: #cd8423; */
-}
-.navbar a{
-  color: #fff;
+
+@media (max-width: 2560px) {
+
+
+
+  .menutop {
+  position: relative;
+  z-index: 1001;
 }
 
 
-  body{
-    background-color:#fff;
-    color: #000000;
-  }
-  .abc{
-    color:#fff ;
+
+  header {
+
+    top:0%;
+    color:#fff;
+  
   }
 
 
 
-  .menutop{
-    text-decoration:none-;
-
+  .menutop a {
+    color: #fff;
+    
+    /* hover: #cd8423; */
   }
-      .logo {
-        display: inline-block;
-        width: 70px;
-        height: 60px;
-        background: url('') no-repeat center;
-        text-indent: -9999px; /* hides text visually */
 
-      }}
+  .navbar a {
+    color: #fff;
+  }
+
+  header img {
+    width: 35%;
+  }
+
+  header a {
+    color: #fff;
+  }
+  
+  body {
+    a:hover {
+   background-color: #edae48;
+   overflow-x: hidden;
+  }
+} 
 
 
-      section.services{
-        padding-top: 100px;
-      }
-.b{
+
+section.services {
+  padding-top: 100px;
+}
+
+.b {
   text-align: center;
 }
-.card-body{
+
+.card-body {
   color: black;
-  
+
 }
-.navbar{
-  text-align: endz;
+
+.navbar {
+  text-align: end;
 }
 
 
@@ -62,7 +70,8 @@ top:0%;
   max-width: 1000px;
   margin: 0 auto;
   padding: 40px 20px;
-  font-family: Arial, sans-serif;
+  font-family:'Open Sans', sans-serif;
+
   color: #000000;
 }
 
@@ -76,7 +85,7 @@ top:0%;
 
 .testimonial-container {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   overflow-x: auto;
   scroll-behavior: smooth;
   padding-bottom: 10px;
@@ -88,7 +97,7 @@ top:0%;
   border-radius: 12px;
   padding: 20px;
   position: relative;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .quote-mark {
@@ -96,7 +105,7 @@ top:0%;
   top: 20px;
   left: 20px;
   font-size: 3em;
-  color: rgba(0,0,255,0.2);
+  color: rgba(0, 0, 255, 0.2);
 }
 
 .testimonial-text {
@@ -151,89 +160,99 @@ top:0%;
 
 
 
-footer{
+footer {
   background-color: black;
+  color: #fff;
+  /* position: sticky;
+bottom:0%;
+ padding-top:0px;
+ z-index: 1000; */
+}
+
+
+.menutop {
+  padding: 10px 0px;
+  background: rgb(6, 0, 6);
+}
+
+
+.menutop p {
+  margin-bottom: 0px;
   color: #fff;
 }
 
-
-.menutop{
-    padding: 10px 0px;
-    background: rgb(6, 0, 6);
-  }
-
-  
-  .menutop p{
-    margin-bottom: 0px;
-    color: #fff;
-    }
-    h3{
-      color: #fbfbfb;
-    }
-    ul{
-      color: #000;
-    }
-    .navbar-brand{
-        width: 10%;
-    }
-    .navbar {
-        background: #fff;
-    }
-
-    
-/* GSAP */
- 
-    #nav{
-    background-color:black;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-/* padding: 30px,50px; */
+h3 {
+  color: #fbfbfb;
 }
-#part1{
+
+ul {
+  color: #000;
+}
+
+.navbar-brand {
+  width: 10%;
+}
+
+.navbar {
+  background: #fff;
+}
+
+
+/* GSAP */
+
+#nav {
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 30px,50px; */
+}
+
+#part1 {
   position: absolute;
   text-align: center;
 }
-.menu1{
+
+.menu1 {
   position: absolute;
   display: flex;
-   padding: 950px;
-   gap: 25px;
-   white-space: nowrap;
-  
-}
 
-    @media (max-width: 1920px) {
-      
-    
-}
 
+ padding: 1100px;
+  gap: 25px;
+  white-space: nowrap;
+
+}}
+
+@media (max-width: 1920px) {}
+body{
+    overflow-x:hidden;
+  }
 
 @media (max-width: 1440px) {
-    
+  
+  body{
+    overflow-x:hidden;
+  }
 }
-@media (max-width: 1024px) {
-    
-}
+
+@media (max-width: 1024px) {}
+
 @media (max-width: 768px) {
-    
-}
-@media (max-width: 576px) {
-    
-}
-@media (max-width: 425px) {
-    
-}
-@media (max-width: 375px) {
-    
-}
-@media (max-width: 320px) {
-    
+  header {
+    position: sticky;
+    top: 0%;
+    color: #fff;
+    padding-top: 0px;
+    z-index: 1000;
+  }
 }
 
+@media (max-width: 576px) {}
 
+@media (max-width: 425px) {}
 
+@media (max-width: 375px) {}
 
-    
-   
+@media (max-width: 320px) {}

@@ -4,7 +4,7 @@ tl.from ("a",{
     y:-20,
     opacity:0,
     duration:1,
-    delay:0.5
+    delay:0.2
 }
 )
 tl.from ("h1",{
@@ -17,7 +17,7 @@ tl.from ("h1",{
 
 tl.from("h4",{
     y:-20,
-    duration:0.5,
+    duration:0.2,
     opacity:0
 })
 
@@ -25,7 +25,7 @@ tl.from("h4",{
 tl.from ("h5",{
     y:-20,
     opacity:0,
-    duration:0.5,
+    duration:0.2,
     stagger:0.25
 }
 )
